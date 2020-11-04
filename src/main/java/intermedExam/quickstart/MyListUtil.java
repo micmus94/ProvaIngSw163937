@@ -7,7 +7,7 @@ import java.util.ListIterator;
 
 public class MyListUtil {
 
-		public void Crescente(List<Integer>num) {
+		public static void Crescente(List<Integer>num) {
 			int temp,tempI,tempJ;
 			for(int i=0;i<num.size();i++) {
 				for(int j=i+1;j<num.size();j++) {
@@ -25,7 +25,7 @@ public class MyListUtil {
 			
 		}
 		
-		public void Decrescente(List<Integer>num) {
+		public static void Decrescente(List<Integer>num) {
 			int temp,tempI,tempJ;
 			for(int i=0;i<num.size();i++) {
 				for(int j=i+1;j<num.size();j++) {

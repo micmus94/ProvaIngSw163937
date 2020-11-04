@@ -8,7 +8,7 @@ public class App
     public static void main( String[] args )
     {
     	MyListUtil mlu=new MyListUtil();
-        List<Integer>numeri=Arrays.asList(2,5,8,5,9,1,3);  
+        List<Integer>numeri=Arrays.asList(4,6,1,2,9,8);  
         mlu.Crescente(numeri);
         for(int i=0;i<numeri.size();i++) {
         	System.out.print(numeri.get(i)+ " ");
