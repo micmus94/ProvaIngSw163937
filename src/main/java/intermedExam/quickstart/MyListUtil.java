@@ -10,7 +10,6 @@ public class MyListUtil {
 
 		public List<Integer> Crescente(List<Integer>num) {
 			int temp,tempI,tempJ;
-			List<Integer>ord=Arrays.asList();
 			for(int i=0;i<num.size();i++) {
 				for(int j=i+1;j<num.size();j++) {
 					if(num.get(i)>num.get(j)) {
@@ -29,7 +28,6 @@ public class MyListUtil {
 		
 		public List<Integer> Decrescente(List<Integer>num) {
 			int temp,tempI,tempJ;
-			List<Integer>ord=Arrays.asList();
 			for(int i=0;i<num.size();i++) {
 				for(int j=i+1;j<num.size();j++) {
 					if(num.get(i)<num.get(j)) {
