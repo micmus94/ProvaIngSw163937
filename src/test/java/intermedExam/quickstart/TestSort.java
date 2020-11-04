@@ -41,7 +41,7 @@ public class TestSort {
 	public void testDecrescente() {
 		MyListUtil mlu=new MyListUtil();
 		List<Integer>num=Arrays.asList(4,6,1,2,9,8);  
-		assertEquals(Arrays.asList(9,8,6,2,1),mlu.Decrescente(num));
+		assertEquals(Arrays.asList(9,8,6,4,2,1),mlu.Decrescente(num));
 	}
 }
 
